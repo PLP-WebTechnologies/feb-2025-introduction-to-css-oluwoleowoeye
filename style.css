@@ -1,0 +1,61 @@
+/* Universal selector - applies to all elements */
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class selector - for main content container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+/* ID selector - for the header section */
+#main-header {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #3498db;
+  font-family: 'Georgia', serif;
+}
+
+/* Element selector - for paragraphs */
+p {
+  line-height: 1.6;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Class selector - for images */
+.image-style {
+  border: 3px solid #2980b9;
+  border-radius: 4px;
+  margin: 20px auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Class selector - for buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
